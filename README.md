@@ -25,17 +25,20 @@ Android Keystore system:
 two additional options for increasing key security:
 
 1.separate hardware module.
-	API 28, or higher.
-	setRequestStrongBoxBacked to "true"
+	
+ 	API 28, or higher.
+ 	setRequestStrongBoxBacked to "true"
+ 
 2.Restrict key usage until the user authenticates via biometrics.
+
 	setUserAuthenticationRequired to "true"
 
 --------------------------------------------------------------------------------
 Biometric prompt:
 
-BiometricPrompt( onAuthenticationSucceeded(result){
-.........
-});
+	BiometricPrompt( onAuthenticationSucceeded(result){
+	.........
+	});
 
 
 
